@@ -1,0 +1,16 @@
+ 
+<html> 
+
+<body>
+  <button onclick="play()">Play</button> 
+</body> 
+</html> 
+
+<script>
+function play() { 
+   
+    let working = new SpeechSynthesisUtterance("turn right"); 
+    window.speechSynthesis.speak(working); 
+  
+} 
+</script> 
